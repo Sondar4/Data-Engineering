@@ -1,0 +1,6 @@
+__pycache__/*
+.vscode/*
+.ipynb_checkpoints
+
+error_log.txt
+detail_error_log.txt
