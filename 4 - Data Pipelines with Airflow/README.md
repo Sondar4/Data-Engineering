@@ -6,12 +6,13 @@ A music streaming company, Sparkify, has decided that it is time to introduce mo
 In this project we will build an ETL pipeline with **Airflow** to move data from S3 to Redshift in a monthly schedule. The idea is to build data pipelines that are dynamic and built from reusable tasks, that can be monitored and allow easy backfills. The pipeline will also include a flexible Data Quality Operator to perform checks on the final tables.
 
 ## Solution
-The solution will consist of a *dag* called sparkify.dag with the following graph structure:
+The solution will consist of a **dag** called *sparkify.dag* with the following graph structure:
 
 ![DAG](images/dag.png)
 
 As airflow requires a specific directory structure, it will be built as follows:
 
+```bash
 .
 ├── dags
 │   └── udacity.py
@@ -31,6 +32,7 @@ As airflow requires a specific directory structure, it will be built as follows:
 │       └── stage_redshift.py
 │
 └── README.md
+```
 
 ## Database schema
 The analytic database will follow a **star** schema, with a facts table called songplays, that will store song reproductions, and four dimensions.
