@@ -1,4 +1,4 @@
-# Project 4: A Data Lake for Sparkify
+# Project 3: A Data Lake for Sparkify
 
 ## Problem discussion
 A music streaming startup, Sparkify, has grown their user base and song database and want to move their data warehouse to a data lake. Their data resides in **S3**, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.

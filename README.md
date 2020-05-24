@@ -1,5 +1,5 @@
 # Data Engineering Udacity
-This repo contains the four (currently only 3) projects of the Data Engineering Nanodegree of Udacity.
+This repo contains the four projects of the Data Engineering Nanodegree of Udacity.
 The projects' code is written in **Python** using the corresponding libraries and sdks for each
 tool used: Postgres, Cassandra, Redshift, Spark and Airflow.
 
@@ -17,4 +17,4 @@ Construction of an ETL pipeline that extracts data from S3, stages them in **Red
 Construction of an ETL pipeline that extracts data from an S3 bucket, processes it with **Spark** and loads it back into S3 as a set of dimensional tables in partitioned parquet files.
 
 ## 4 - Data Pipelines with Airflow
--- To Do --
+Construction of an ETL pipeline in an **Airflow** dag that extracts data from S3, stages it in **Redshift** and transforms it into a set of dimensional tables for the analytics team. The last step of the dag consists on executing a series of **Data Quality** checks into the final tables.
